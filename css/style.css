@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+body {
+    width: 100%;
+}
+
 .container {
     font-family: 'Inter', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -17,14 +21,16 @@ header {
 
 nav {
     color: #fafafa;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
+    padding: 20px 0 75px;  
 }
 
 ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 auto;
 }
 
 ul li {
@@ -42,39 +48,56 @@ ul li a {
     flex: 1;
     font-weight: 300;
     font-size: 18px;
-    /* background-color: green; */
-}
-
-.section-one-header li a:hover {
-    background-color: #fafafa;
-    color: #000000;
-    padding: 20px 15px;
-    transition: all 0.7s 0s ease;
-    border-radius: 10px;
-    font-weight: 700;
 }
 
 .section-two-header {
     display: flex;
-    flex: 1;
+    flex: 2;
     font-weight: 900;
     font-size: 32px;
+    margin: 0 auto;
     /* background-color: yellow; */
+}
+
+.section-two-header li {
+    margin: 0 auto;
+}
+
+.section-two-header li a {
+     margin: 0 auto;
 }
 
 .section-three-header {
     display: flex;
+    flex: 1;
     font-weight: 300;
     font-size: 18px;
     /* background-color: red; */
 }
 
-.section-three-header li a:hover {
+.sign-header-box:hover {
     background-color: #fafafa;
     color: #000000;
-    padding: 20px 15px;
+    padding: 15px 25px;
     transition: all 0.7s 0s ease;
-    border-radius: 10px;
+    border-radius: 8px;
     font-weight: 700;
 }
+
+.heading-section {
+    text-align: center;
+    color: #fafafa;
+}
+
+.heading-section h1 {
+    font-size: 80px;
+    line-height: 100%;
+}
+
+.heading-description {
+    font-size: 18px;
+    padding: 25px 0;
+}
+
+
 
