@@ -99,5 +99,52 @@ ul li a {
     padding: 25px 0;
 }
 
+.header-image-section {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.header-image-section h1 {
+    color: #313131;
+    font-size: 50px;
+}
+
+ .phone-section {
+   
+}
+
+.phone-one-section {
+   
+}
+
+.phone-one-box {
+    background-color: #1E5AFA;
+    width: 15%;
+    padding: 150px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 20%;
+}
+
+.phone-one-image {
+    position: relative;
+}
+
+.phone-one-image img {
+    position: absolute; 
+    left: 0;
+    bottom: 0;
+    top: -40em;
+    width: 50%;
+    margin-left: 4.5%;
+}
+
+/* .phone-one-text {
+    width: 30%;
+    padding: 10px;
+} */
+
+
+
 
 
