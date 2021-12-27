@@ -87,6 +87,9 @@ ul li a {
 .heading-section {
     text-align: center;
     color: #fafafa;
+    background-color: #1E5AFA;
+    height: 100vh;
+    /* margin-bottom: 10%; */
 }
 
 .heading-section h1 {
@@ -102,6 +105,21 @@ ul li a {
 .header-image-section {
     background-color: #ffffff;
     text-align: center;
+}
+
+.social-icons-phones-section {
+ display: flex;
+ justify-content: center;
+ z-index: 1;
+ position: relative;
+}
+
+.social-icons {
+   background-color: red;
+}
+
+.header-phones {
+  background-color: green;
 }
 
 .header-image-section h1 {
