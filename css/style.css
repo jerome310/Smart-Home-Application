@@ -115,11 +115,12 @@ ul li a {
 }
 
 .social-icons {
-   background-color: red;
+   /* background-color: red; */
 }
 
 .header-phones {
-  background-color: green;
+  /* background-color: green; */
+  flex: 1;
 }
 
 .header-image-section h1 {
