@@ -88,7 +88,7 @@ ul li a {
     text-align: center;
     color: #fafafa;
     background-color: #1E5AFA;
-    height: 100vh;
+    height: 85vh;
     /* margin-bottom: 10%; */
 }
 
@@ -105,17 +105,19 @@ ul li a {
 .header-image-section {
     background-color: #ffffff;
     text-align: center;
+    padding-top: 20%;
 }
 
 .social-icons-phones-section {
  display: flex;
  justify-content: center;
+ align-items: center;
  z-index: 1;
- position: relative;
 }
 
 .social-icons {
    /* background-color: red; */
+   margin-bottom: 15%;
 }
 
 .header-phones {
@@ -123,26 +125,28 @@ ul li a {
   flex: 1;
 }
 
-.header-image-section h1 {
+.header-image-section .about-us {
     color: #313131;
-    font-size: 50px;
+    font-size: 80px;
 }
 
- .phone-section {
-   
+.phone-section {
+    display: flex;
+    justify-content: space-between;
 }
 
 .phone-one-section {
-   
+    flex: 1;
 }
 
 .phone-one-box {
     background-color: #1E5AFA;
-    width: 15%;
+    width: 20%;
     padding: 150px;
     border-radius: 10px;
-    margin-left: 10%;
-    margin-top: 20%;
+    margin-left: 2%;
+    margin-top: 25%;
+    position: absolute;
 }
 
 .phone-one-image {
@@ -150,18 +154,26 @@ ul li a {
 }
 
 .phone-one-image img {
-    position: absolute; 
-    left: 0;
-    bottom: 0;
-    top: -40em;
-    width: 50%;
-    margin-left: 4.5%;
+    width: 750px;
 }
 
-/* .phone-one-text {
-    width: 30%;
-    padding: 10px;
-} */
+.phone-one-text {
+    flex: 1;
+    padding: 15% 5% 0;
+}
+
+.phone-one-text h1 {
+    font-size: 46px;
+    padding: 0 9% 0 0;
+    text-align: left;
+}
+
+.phone-one-text p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
 
 
 
