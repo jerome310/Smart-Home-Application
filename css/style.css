@@ -118,7 +118,7 @@ ul li a {
 }
 
 .social-icons {
-   margin-bottom: 10%;
+   margin-bottom: 12%;
    position: relative;
    left: 5%;
 }
@@ -167,6 +167,7 @@ ul li a {
     flex: 1;
     padding: 10% 5% 0;
     text-align: left;
+    color: #000F37;
 }
 
 .phone-one-text h1 {
@@ -190,21 +191,24 @@ ul li a {
    border-radius: 5px;
 }
 
-
+.phone-two-section {
+    display: flex;
+    justify-content: space-between;
+}
 
 .phone-two-box {
     background-color: #1E5AFA;
     width: 15%;
     padding: 150px;
     border-radius: 10px;
-    margin-left: 4%;
     margin-top: 10%;
     position: absolute;
 }
 
 .phone-two-image {
     position: relative;
-    bottom: 30%;
+    bottom: 22%;
+    right: 22%;
 }
 
 .phone-two-image img {
@@ -215,6 +219,7 @@ ul li a {
     flex: 1;
     padding: 0% 5% 0%;
     text-align: left;
+    color: #000F37;
 }
 
 .phone-two-text h1 {
@@ -230,13 +235,76 @@ ul li a {
 }
 
 .phone-two-text a {
-   background-color: #000F37;
-   color: #ffffff;
-   text-decoration: none;
-   padding: 20px 50px;
-   font-size: 18px;
-   border-radius: 5px;
+    background-color: #ffffff;
+    color: #000F37;
+    text-decoration: none;
+    padding: 20px 50px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #000F37;
+    font-weight: 500;
 }
 
 
 
+
+
+
+
+
+.phone-three-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone-three-section {
+    flex: 1;
+}
+
+.phone-three-box {
+    background-color: #1E5AFA;
+    width: 15%;
+    padding: 150px;
+    border-radius: 10px;
+    margin-left: 4%;
+    margin-top: 20%;
+    position: absolute;
+}
+
+.phone-three-image {
+    position: relative;
+}
+
+.phone-three-image img {
+    width: 750px;
+}
+
+.phone-three-text {
+    flex: 1;
+    padding: 10% 5% 0;
+    text-align: left;
+    color: #000F37;
+}
+
+.phone-three-text h1 {
+    font-size: 46px;
+    padding: 0 9% 0 0;
+}
+
+.phone-three-text p {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 30px 100px 60px 0;
+    line-height: 2em;
+}
+
+.phone-three-text a {
+   background-color: #ffffff;
+   color: #000F37;
+   text-decoration: none;
+   padding: 20px 50px;
+   font-size: 18px;
+   border-radius: 5px;
+   border: 1px solid #000F37;
+   font-weight: 500;
+}
