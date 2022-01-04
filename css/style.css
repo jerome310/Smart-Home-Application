@@ -117,7 +117,9 @@ ul li a {
 
 .social-icons {
    /* background-color: red; */
-   margin-bottom: 15%;
+   margin-bottom: 10%;
+   position: relative;
+   left: 5%;
 }
 
 .header-phones {
@@ -141,11 +143,11 @@ ul li a {
 
 .phone-one-box {
     background-color: #1E5AFA;
-    width: 20%;
+    width: 15%;
     padding: 150px;
     border-radius: 10px;
-    margin-left: 2%;
-    margin-top: 25%;
+    margin-left: 4%;
+    margin-top: 20%;
     position: absolute;
 }
 
@@ -159,18 +161,29 @@ ul li a {
 
 .phone-one-text {
     flex: 1;
-    padding: 15% 5% 0;
+    padding: 10% 5% 0;
+    text-align: left;
 }
 
 .phone-one-text h1 {
     font-size: 46px;
     padding: 0 9% 0 0;
-    text-align: left;
 }
 
 .phone-one-text p {
     font-size: 20px;
     font-weight: 400;
+    padding: 30px 100px 60px 0;
+    line-height: 2em;
+}
+
+.phone-one-text a {
+   background-color: #000F37;
+   color: #ffffff;
+   text-decoration: none;
+   padding: 20px 50px;
+   font-size: 18px;
+   border-radius: 5px;
 }
 
 
