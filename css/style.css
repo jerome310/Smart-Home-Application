@@ -15,6 +15,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Navbar Section */
+
 header {
     background-color: #1E5AFA;
 }
@@ -72,7 +74,6 @@ ul li a {
     flex: 1;
     font-weight: 300;
     font-size: 18px;
-    /* background-color: red; */
 }
 
 .sign-header-box:hover {
@@ -84,12 +85,13 @@ ul li a {
     font-weight: 700;
 }
 
+/* Header Main Content */
+
 .heading-section {
     text-align: center;
     color: #fafafa;
     background-color: #1E5AFA;
     height: 85vh;
-    /* margin-bottom: 10%; */
 }
 
 .heading-section h1 {
@@ -116,21 +118,23 @@ ul li a {
 }
 
 .social-icons {
-   /* background-color: red; */
    margin-bottom: 10%;
    position: relative;
    left: 5%;
 }
 
 .header-phones {
-  /* background-color: green; */
   flex: 1;
 }
+
+/* Social Icon Images */
 
 .header-image-section .about-us {
     color: #313131;
     font-size: 80px;
 }
+
+/* About Us */
 
 .phone-section {
     display: flex;
@@ -188,7 +192,51 @@ ul li a {
 
 
 
+.phone-two-box {
+    background-color: #1E5AFA;
+    width: 15%;
+    padding: 150px;
+    border-radius: 10px;
+    margin-left: 4%;
+    margin-top: 10%;
+    position: absolute;
+}
 
+.phone-two-image {
+    position: relative;
+    bottom: 30%;
+}
+
+.phone-two-image img {
+    width: 750px;
+}
+
+.phone-two-text {
+    flex: 1;
+    padding: 0% 5% 0%;
+    text-align: left;
+}
+
+.phone-two-text h1 {
+    font-size: 46px;
+    padding: 0 9% 0 0;
+}
+
+.phone-two-text p {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 30px 100px 60px 0;
+    line-height: 2em;
+}
+
+.phone-two-text a {
+   background-color: #000F37;
+   color: #ffffff;
+   text-decoration: none;
+   padding: 20px 50px;
+   font-size: 18px;
+   border-radius: 5px;
+}
 
 
 
