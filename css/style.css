@@ -273,11 +273,11 @@ ul li a {
 }
 
 .phone-three-text {
-    flex: 1;
-    padding: 0% 5% 0%;
-    text-align: left;
-    color: #000f37;
-  }
+  flex: 1;
+  padding: 0% 5% 0%;
+  text-align: left;
+  color: #000f37;
+}
 
 .phone-three-text h1 {
   position: relative;
@@ -315,35 +315,37 @@ ul li a {
   font-weight: 500;
 }
 .our-clients {
-    position: relative;
-    text-align: center;
-    bottom: 15em;
+  position: relative;
+  text-align: center;
+  bottom: 15em;
 }
 .our-clients h1 {
-    color: #313131;
-    font-size: 80px;
+  color: #313131;
+  font-size: 80px;
 }
 .our-clients p {
-    color: #575757;
-    font-size: 18px;
-    width: 50%;
-    margin: 40px auto;
+  color: #575757;
+  font-size: 18px;
+  width: 50%;
+  margin: 40px auto;
 }
 .image-boxes {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 60%;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 0 auto;
 }
 .image-box-one {
-background-color: #fafafa;
-margin: 20px 0 0;
-padding: 15px 50px;
-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2); 
+  background-color: #fafafa;
+  margin: 20px 0 0;
+  padding: 15px 50px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  width: 116px;
+  height: 98px;
 }
 .image-box-one:hover {
- transition: all ease-out 0.9s;
- padding: 20px 55px;
+  transition: all ease-out 0.9s;
+  padding: 20px 55px;
 }
