@@ -349,3 +349,161 @@ ul li a {
   transition: all ease-out 0.9s;
   padding: 20px 55px;
 }
+
+.image-box-two {
+  background-color: #fafafa;
+  margin: 20px 0 0;
+  padding: 15px 50px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  width: 116px;
+  height: 98px;
+}
+
+.image-box-two img {
+  position: relative;
+  top: 25%;
+  right: 31%;
+}
+
+.image-box-two:hover {
+  transition: all ease-out 0.9s;
+  padding: 20px 55px;
+}
+
+.image-box-three {
+  background-color: #fafafa;
+  margin: 20px 0 0;
+  padding: 15px 50px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  width: 116px;
+  height: 98px;
+}
+
+.image-box-three img {
+  position: relative;
+  top: 25%;
+  right: 36%;
+  width: 200px;
+}
+
+.image-box-three:hover {
+  transition: all ease-out 0.9s;
+  padding: 20px 55px;
+}
+
+.image-box-four {
+  background-color: #fafafa;
+  margin: 20px 0 0;
+  padding: 15px 50px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  width: 116px;
+  height: 98px;
+}
+
+.image-box-four img {
+  position: relative;
+  top: 25%;
+  right: 0%;
+}
+
+.image-box-four:hover {
+  transition: all ease-out 0.9s;
+  padding: 20px 55px;
+}
+
+.image-box-five {
+  background-color: #fafafa;
+  margin: 20px 0 0;
+  padding: 15px 50px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  width: 116px;
+  height: 98px;
+}
+
+.image-box-five img {
+  position: relative;
+  top: 35%;
+  right: 28%;
+}
+
+.image-box-five:hover {
+  transition: all ease-out 0.9s;
+  padding: 20px 55px;
+}
+
+.image-box-six {
+  background-color: #fafafa;
+  margin: 20px 0 0;
+  padding: 15px 50px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  width: 116px;
+  height: 98px;
+}
+
+.image-box-six img {
+  position: relative;
+  top: 35%;
+  right: 25%;
+}
+
+.image-box-six:hover {
+  transition: all ease-out 0.9s;
+  padding: 20px 55px;
+}
+
+.image-box-seven {
+  background-color: #fafafa;
+  margin: 20px 0 0;
+  padding: 15px 50px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  width: 116px;
+  height: 98px;
+}
+
+.image-box-seven img {
+  position: relative;
+  top: 25%;
+  right: 5%;
+}
+
+.image-box-seven:hover {
+  transition: all ease-out 0.9s;
+  padding: 20px 55px;
+}
+
+.image-box-eight {
+  background-color: #fafafa;
+  margin: 20px 0 0;
+  padding: 15px 50px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  width: 116px;
+  height: 98px;
+}
+
+.image-box-eight img {
+  position: relative;
+  top: 35%;
+  right: 20%;
+}
+
+.image-box-eight:hover {
+  transition: all ease-out 0.9s;
+  padding: 20px 55px;
+}
+
+.testimonials-section {
+  text-align: center;
+}
+
+.testimonials-section h1 {
+  color: #313131;
+  font-size: 85px;
+}
+
+.testimonials-section p {
+  color: #575757;
+  font-size: 18px;
+  padding: 30px 24em 0;
+}
+
+
