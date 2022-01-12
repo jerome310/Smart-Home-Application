@@ -508,7 +508,6 @@ ul li a {
 
 .box-container {
   width: 100%;
-  height: 100vh;
 }
 
 .box {
@@ -532,7 +531,7 @@ ul li a {
 }
 
 .buttons {
-  margin-top: 30px;
+  margin-top: 45px;
   display: flex;
   justify-content: center;
   flex-direction: row-reverse;
@@ -541,6 +540,10 @@ ul li a {
 .next-button {
   background-color: #ffffff;
   border: none;
+}
+
+.next-button:hover {
+ cursor: pointer;
 }
 
 .next-button img {
@@ -552,8 +555,14 @@ ul li a {
   border: none;
 }
 
+.previous-button:hover {
+  cursor: pointer;
+ }
+ 
+
 .previous-button img {
   padding-right: 5px;
+  cursor: pointer;
 }
 
 
