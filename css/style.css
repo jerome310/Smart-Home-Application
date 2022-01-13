@@ -565,5 +565,75 @@ ul li a {
   cursor: pointer;
 }
 
+.faq-container {
+  padding-top: 15em;
+}
+
+.faq-container h1 {
+text-align: center;
+font-size: 85px;
+}
+
+.plus-one-box {
+  display: flex;
+  align-items: center;
+  background-color: #E7EBEE;
+  border: 1px solid #cecbcb;
+  border-radius: 10px;
+  padding: 20px 40px;
+  width: 25%;
+  margin: 60px auto 20px;
+}
+
+.plus-one-box button {
+  border: none;
+  background-color: #E7EBEE;
+}
+
+.plus-one-box i {
+  font-size: 30px;
+}
+
+.plus-one-box p {
+  padding-left: 10px;
+}
+
+.minus-one-box {
+  background-color: #E7EBEE;
+  border: 1px solid #cecbcb;
+  border-radius: 10px;
+  padding: 20px 40px;
+  width: 25%;
+  margin: 0 auto 50px;
+  display: none;
+}
+
+.toggle-minus {
+  display: block;
+}
+
+.minus-button-text {
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.minus-one-box button {
+  border: none;
+  background-color: #E7EBEE;
+}
+
+.minus-heading {
+  padding-left: 10px;
+}
+
+.minus-paragraph {
+  padding-left: 35px;
+}
+
+.minus-one-box i {
+  font-size: 30px;
+  color: #FD5757;
+}
 
 

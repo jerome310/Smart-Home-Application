@@ -1,3 +1,4 @@
+// Reviews Feature
 const people = [
   {
     id: 1,
@@ -67,4 +68,5 @@ previousButton.addEventListener('click',function(){
   peoplePicker()
 })
 
+// FAQ's Feature
 
