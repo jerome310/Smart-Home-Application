@@ -70,7 +70,8 @@ previousButton.addEventListener('click',function(){
 
 // FAQ's Feature
 let questions = document.querySelectorAll('.faq-questions');
-let redButtons = document.querySelectorAll('.minus-button')
+// let redButtons = document.querySelectorAll('.minus-button');
+// let box = document.querySelector('.minus-one-box')
 
 questions.forEach(function(question){
   let btns = question.querySelector('.plus-button');
@@ -80,18 +81,22 @@ questions.forEach(function(question){
         item.classList.remove('toggle-minus')
         }
     })
-   question.classList.toggle('toggle-minus')
+    question.classList.toggle('toggle-minus')
    minusButton()
   })
 })
 
 function minusButton(){
- redButtons.forEach(function(redbutton){
-  redbutton.addEventListener('click',function(e){
-    let removedBox = e.currentTarget.parentElement.parentElement
-    removedBox.remove('toggle-minus')
+questions.forEach(function(button){
+  let redButton = button.querySelector('.minus-button');
+  redButton.addEventListener('click',function(){
+  if(redButton.classList){
+    redButton.parentElement.parentElement.remove('toggle-minus')
+  } if(redButton.parentElement.parentElement.remove('toggle-minus')) {
+    redButton.add('toggle-minus')
+  }
   })
- })
+})
 }
 
 console.log(minusButton());
