@@ -69,4 +69,29 @@ previousButton.addEventListener('click',function(){
 })
 
 // FAQ's Feature
+let questions = document.querySelectorAll('.faq-questions');
+let redButtons = document.querySelectorAll('.minus-button')
 
+questions.forEach(function(question){
+  let btns = question.querySelector('.plus-button');
+  btns.addEventListener('click',function(){
+    questions.forEach(function(item){
+      if(item !== question){
+        item.classList.remove('toggle-minus')
+        }
+    })
+   question.classList.toggle('toggle-minus')
+   minusButton()
+  })
+})
+
+function minusButton(){
+ redButtons.forEach(function(redbutton){
+  redbutton.addEventListener('click',function(e){
+    let removedBox = e.currentTarget.parentElement.parentElement
+    removedBox.remove('toggle-minus')
+  })
+ })
+}
+
+console.log(minusButton());

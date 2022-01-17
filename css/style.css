@@ -608,7 +608,7 @@ font-size: 85px;
   display: none;
 }
 
-.toggle-minus {
+.toggle-minus .minus-one-box {
   display: block;
 }
 
