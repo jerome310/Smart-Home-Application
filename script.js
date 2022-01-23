@@ -92,11 +92,10 @@ questions.forEach(function(button){
   redButton.addEventListener('click',function(){
   if(redButton.classList){
     redButton.parentElement.parentElement.remove('toggle-minus')
-  } if(redButton.parentElement.parentElement.remove('toggle-minus')) {
-    redButton.add('toggle-minus')
+  } else {
+    button.classList.toggle('toggle-minus')
   }
+  console.log(redButton);
   })
 })
 }
-
-console.log(minusButton());

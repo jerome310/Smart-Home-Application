@@ -636,4 +636,36 @@ font-size: 85px;
   color: #FD5757;
 }
 
+/* Download App */
+
+.download-app-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.download-app-phone img {
+  width: 100%;
+}
+
+.download-app-text {
+  flex: 1;
+  padding: 10% 5% 0%;
+  text-align: left;
+  color: #000f37;
+}
+
+.download-app-text h1 {
+ font-size: 85px;
+ padding-left: 70px;
+}
+
+.download-app-text p {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 50px 55px 50px 80px;
+  line-height: 1.5em;
+}
+
+
 
