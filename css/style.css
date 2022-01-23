@@ -612,23 +612,25 @@ font-size: 85px;
   display: block;
 }
 
-.minus-button-text {
+/* .minus-button-text {
   display: flex;
   align-items: center;
   padding-bottom: 15px;
-}
+} */
 
-.minus-one-box button {
+/* .minus-one-box button {
   border: none;
   background-color: #E7EBEE;
-}
+} */
 
 .minus-heading {
-  padding-left: 10px;
+  text-align: center;
+  padding: 15px 0;
 }
 
 .minus-paragraph {
-  padding-left: 35px;
+  /* padding-left: 35px; */
+  text-align: center;
 }
 
 .minus-one-box i {
@@ -641,7 +643,7 @@ font-size: 85px;
 .download-app-container {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 10em;
 }
 
 .download-app-phone img {
