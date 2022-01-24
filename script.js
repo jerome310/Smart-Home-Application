@@ -1,3 +1,21 @@
+// About Us Feature
+
+function phoneAppear() {
+  let phoneRow = document.querySelectorAll(".about-us");
+
+  phoneRow.forEach((phones) => {
+    let phonePosition = phones.getBoundingClientRect().top;
+    let phoneScroll = window.innerHeight / 1.5;
+    if (phonePosition < phoneScroll) {
+      phones.classList.add("phonesAppear");
+    }
+  });
+}
+
+window.addEventListener("scroll", phoneAppear);
+
+
+
 // Reviews Feature
 const people = [
   {
@@ -70,8 +88,6 @@ previousButton.addEventListener('click',function(){
 
 // FAQ's Feature
 let questions = document.querySelectorAll('.faq-questions');
-// let redButtons = document.querySelectorAll('.minus-button');
-// let box = document.querySelector('.minus-one-box')
 
 questions.forEach(function(question){
   let btns = question.querySelector('.plus-button');
