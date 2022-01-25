@@ -201,6 +201,10 @@ ul li a {
   transition: 0.5s all ease-in-out;
 }
 
+.phone-two-container {
+  flex: 1;
+}
+
 .phone-two-box {
   background-color: #1e5afa;
   width: 15%;
@@ -661,7 +665,7 @@ font-size: 85px;
 }
 
 .download-app-phone img {
-  width: 100%;
+  width: 90%;
 }
 
 .download-app-text {
@@ -683,5 +687,39 @@ font-size: 85px;
   line-height: 1.5em;
 }
 
+.subscribe-blue-box {
+  background-color: #1E5AFA;
+  padding: 70px 100px;
+  width: 65%;
+  margin: 75px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
 
+.subscribe-text {
+  color: #ffffff;
+  flex: 1;
+}
+
+.subscribe-text h1 {
+  font-size: 48px;
+  padding-bottom: 20px;
+}
+
+.subscribe-text p {
+  font-size: 18px;
+  line-height: 1.6em;
+  padding-right: 16em;
+}
+
+.subscribe-button a {
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  padding: 15px 40px;
+  color: #ffffff;
+}
 
