@@ -115,3 +115,15 @@ questions.forEach(function(button){
   })
 })
 }
+
+// Footer Email Authenification
+let input = document.querySelector("input");
+let register = document.querySelector('.register-button');
+
+register.addEventListener('click',function(){
+  if(input.value == '@'){
+    alert('Thank you for registering')
+  } else {
+    alert('Please provide @ to submit request')
+  }
+})

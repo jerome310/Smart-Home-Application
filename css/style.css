@@ -723,3 +723,37 @@ font-size: 85px;
   color: #ffffff;
 }
 
+.footer-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 77%;
+  margin: 0 auto;
+}
+
+.email-form-section {
+  /* background-color: red; */
+  width: 30%;
+}
+
+.email-form-section p {
+  padding: 25px 0;
+}
+
+.email-form-section input[type=text] {
+  padding: 12px 0 12px 10px;
+  border-radius: 5px;
+  background-color: #FAFAFA;
+  border: 1px solid #E7EBEE;
+  color: #575757;
+}
+
+.email-form-section a {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #011037;
+  color: #011037;
+  text-decoration: none;
+}
+
