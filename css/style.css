@@ -725,7 +725,6 @@ font-size: 85px;
 
 .footer-text {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   width: 77%;
   margin: 0 auto;
@@ -755,5 +754,19 @@ font-size: 85px;
   border: 1px solid #011037;
   color: #011037;
   text-decoration: none;
+}
+
+.footer-link-container {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.footer-links h2 {
+padding-bottom: 50px;
+}
+
+.footer-links p {
+padding: 15px 0;
 }
 

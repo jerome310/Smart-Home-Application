@@ -121,9 +121,11 @@ let input = document.querySelector("input");
 let register = document.querySelector('.register-button');
 
 register.addEventListener('click',function(){
-  if(input.value == '@'){
-    alert('Thank you for registering')
-  } else {
-    alert('Please provide @ to submit request')
+  if(input.value.includes("@")){
+    alert('Thank you for registering.')
+    input.value = ""
+  } else if(input.value != '@') {
+    alert('Please provide @ to submit request.')
+    input.value = ""
   }
 })
