@@ -782,6 +782,9 @@ ul li a {
 
 /* Tablet Responsive Version */
 @media only screen and (max-width: 768px) {
+  .heading-section h1 {
+  font-size: 50px;
+  }
   .heading-description p {
     padding: 0 50px;
   }
