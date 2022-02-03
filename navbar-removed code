@@ -1,0 +1,17 @@
+<nav>
+                <ul>
+                    <div class="section-one-header">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </div>
+                    <div class="section-two-header">
+                        <li><a href="#">smartHome</a></li>
+                    </div>
+                    <div class="section-three-header">
+                        <li><a href="#">Login</a></li>
+                        <li><span class="sign-header-box"><a href="#">Sign up</a></span></li>
+                    </div>
+                </ul>
+            </nav>
