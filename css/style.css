@@ -802,7 +802,7 @@ ul li a {
   }
   .header-image-section img {
     width: 70%;
-    margin-top: 150px;
+    margin-top: 75px;
   }
   .about-us {
     font-size: 60px !important;
@@ -821,7 +821,7 @@ ul li a {
   .phone-one-image img {
     width: 80%;
     position: relative;
-    left: 30px;
+    left: 30px !important;
   }
   .phone-one-text {
     padding: 0;
@@ -849,7 +849,6 @@ ul li a {
   }
   .phone-two-section {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column-reverse;
   }
   .phone-two-box {
@@ -857,16 +856,15 @@ ul li a {
   }
   .phone-two-image {
     width: 100% !important;
-    text-align: center;
     display: block;
     position: relative;
-  bottom: 0%;
-  right: 11%;
+    bottom: 0% !important;
+    right: 0% !important;
   }
   .phone-two-image img {
     width: 80%;
     position: relative;
-    left: 30px;
+    left: 30px !important;
   }
   .phone-two-text {
     flex: 1;
@@ -912,8 +910,8 @@ ul li a {
     text-align: center;
     display: block;
     position: relative;
-  bottom: 0%;
-  right: 0%;
+    bottom: 0%;
+    right: 0%;
   }
   .phone-three-image img {
     width: 80%;
