@@ -826,7 +826,7 @@ ul li a {
     width: 100% !important;
   }
   .phone-one-image img {
-    width: 70%;
+    width: 80%;
     text-align: center;
     display: block;
     margin-left: auto;
@@ -970,5 +970,111 @@ ul li a {
     border-radius: 5px;
     border: 1px solid #000f37;
     font-weight: 500;
+  }
+  .our-clients {
+    position: relative;
+    text-align: center;
+    top: 10em;
+  } 
+  .our-clients h1 {
+    color: #313131;
+    font-size: 60px;
+  }
+  .our-clients p {
+    color: #575757;
+    font-size: 18px;
+    width: 85%;
+    margin: 40px auto;
+  }
+  .image-boxes {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .testimonials-section {
+    text-align: center;
+    padding-top: 15em;
+  }
+  .testimonials-section h1 {
+    color: #313131;
+    font-size: 60px;
+  }
+  .testimonials-section .header-text {
+    color: #575757;
+    font-size: 18px;
+    padding: 30px 2em 0;
+  }
+  .box-container {
+    width: 100%;
+  }
+  .box {
+    background-color: #ffffff;
+    box-shadow: 2px 2px 2px 2px rgba(0.2, 0.2, 0.2, 0.2);
+    text-align: center;
+    width: 80%;
+    border-radius: 10px;
+    padding: 50px 0;
+    line-height: 2em;
+    margin: 50px auto 0;
+  }
+  .box-header {
+    padding: 0 50px;
+  }
+  .people-info img {
+    width: 150px;
+    height: 150px;
+  }
+  .faq-container {
+    padding-top: 10em;
+  }
+  .faq-container h1 {
+    text-align: center;
+    font-size: 60px;
+  }
+  .plus-one-box {
+    display: flex;
+    align-items: center;
+    background-color: #e7ebee;
+    border: 1px solid #cecbcb;
+    border-radius: 10px;
+    padding: 20px 40px;
+    width: 50%;
+    margin: 60px auto 20px;
+  }
+  .minus-one-box {
+    background-color: #e7ebee;
+    border: 1px solid #cecbcb;
+    border-radius: 10px;
+    padding: 20px 40px;
+    width: 50%;
+    margin: 0 auto 50px;
+    display: none;
+  }
+  .download-app-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+  }
+  .download-app-phone img {
+    width: 90%;
+  }
+  .download-app-text {
+    flex: 1;
+    padding: 0% 0% 0%;
+    text-align: center;
+    color: #000f37;
+  }
+  .download-app-text h1 {
+    font-size: 60px;
+    padding-left: 0px;
+  }
+  .download-app-text p {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 50px 50px 50px;
+    line-height: 1.5em;
   }
 }
