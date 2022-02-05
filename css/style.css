@@ -783,7 +783,7 @@ ul li a {
 /* Tablet Responsive Version */
 @media only screen and (max-width: 768px) {
   .heading-section h1 {
-  font-size: 50px;
+    font-size: 50px;
   }
   .heading-description p {
     padding: 0 50px;
@@ -815,12 +815,12 @@ ul li a {
   .phone-one-box {
     display: none;
     background-color: #1e5afa;
-  width: 0% !important;
-  padding: 0px !important;
-  border-radius: 0px;
-  margin-left: 0% !important;
-  margin-top: 0% !important;
-  position: relative;
+    width: 0% !important;
+    padding: 0px !important;
+    border-radius: 0px;
+    margin-left: 0% !important;
+    margin-top: 0% !important;
+    position: relative;
   }
   .phone-one-image {
     width: 100% !important;
@@ -886,7 +886,7 @@ ul li a {
   .phone-two-text h1 {
     font-size: 46px;
     padding: 0px 0% 0px 0px;
-}
+  }
   .phone-two-text p {
     font-size: 20px;
     font-weight: 400;
@@ -936,9 +936,9 @@ ul li a {
     color: #000f37;
   }
   .phone-three-text h1 {
-      font-size: 46px;
-      padding: 0 0% 0 0 !important;
-      text-align: center;
+    font-size: 46px;
+    padding: 0 0% 0 0 !important;
+    text-align: center;
   }
   .phone-three-text p {
     font-size: 20px;
@@ -975,7 +975,7 @@ ul li a {
     position: relative;
     text-align: center;
     top: 10em;
-  } 
+  }
   .our-clients h1 {
     color: #313131;
     font-size: 60px;
