@@ -1187,4 +1187,31 @@ ul li a {
     text-align: center;
     padding-top: 10%;
   }
+  .subscribe-blue-box {
+    background-color: #1e5afa;
+    padding: 70px 100px;
+    width: 50%;
+    margin: 0px auto 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+  }
+  .subscribe-text {
+    color: #ffffff;
+    flex: 1;
+  }
+  .subscribe-text h1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .subscribe-text p {
+    font-size: 18px;
+    line-height: 1.6em;
+    padding-right: 0em;
+    padding-bottom: 2em;
+    text-align: center;
+  }
 }
