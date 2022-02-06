@@ -928,12 +928,12 @@ ul li a {
     display: block;
     position: relative;
     bottom: 0%;
-    right: 0%;
+    left: 15px;
   }
   .phone-three-image img {
     width: 80%;
     position: relative;
-    right: 0px;
+    right: 5%;
   }
   .phone-three-text {
     flex: 1;
