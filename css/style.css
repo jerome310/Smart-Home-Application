@@ -888,7 +888,7 @@ ul li a {
     padding: 0% 0% 0%;
     text-align: center;
     color: #000f37;
-}
+  }
   .phone-two-text h1 {
     font-size: 46px;
     padding: 0px 0% 0px 0px;
@@ -933,7 +933,7 @@ ul li a {
   .phone-three-image img {
     width: 80%;
     position: relative;
-    right: 5%;
+    right: 0%;
   }
   .phone-three-text {
     flex: 1;
