@@ -927,13 +927,13 @@ ul li a {
     text-align: center;
     display: block;
     position: relative;
-    bottom: 0%;
-    left: 15px;
+    bottom: 0% !important;
+    right: 0% !important;
   }
   .phone-three-image img {
     width: 80%;
     position: relative;
-    right: 0%;
+    left: 15px;
   }
   .phone-three-text {
     flex: 1;
