@@ -872,7 +872,7 @@ ul li a {
     display: block;
     position: relative;
     bottom: 0% !important;
-    right: 1% !important;
+    right: 0% !important;
   }
   .phone-two-image img {
     width: 80%;
