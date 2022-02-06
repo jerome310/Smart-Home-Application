@@ -873,6 +873,7 @@ ul li a {
     position: relative;
     bottom: 0% !important;
     right: 0% !important;
+    margin-top: 10%;
   }
   .phone-two-image img {
     width: 80%;
