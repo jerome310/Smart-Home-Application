@@ -809,8 +809,9 @@ ul li a {
   }
   .phone-section {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+  }
+  .phone-one-section {
+    flex: 1;
   }
   .phone-one-box {
     display: none;
@@ -824,13 +825,14 @@ ul li a {
   }
   .phone-one-image {
     width: 100% !important;
+    display: flex;
+    justify-content: center;
   }
   .phone-one-image img {
     width: 80%;
     text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     /* position: relative;
     left: 10px; */
   }
