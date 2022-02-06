@@ -872,7 +872,7 @@ ul li a {
     display: block;
     position: relative;
     bottom: 0% !important;
-    right: 1% !important;
+    right: 15px !important;
   }
   .phone-two-image img {
     width: 80%;
@@ -884,10 +884,10 @@ ul li a {
   }
   .phone-two-text {
     flex: 1;
-    padding: 5% 0% 0%;
+    padding: 0% 0% 0%;
     text-align: center;
     color: #000f37;
-  }
+}
   .phone-two-text h1 {
     font-size: 46px;
     padding: 0px 0% 0px 0px;
