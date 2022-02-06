@@ -929,6 +929,7 @@ ul li a {
     position: relative;
     bottom: 0% !important;
     right: 0% !important;
+    margin-top: 10%;
   }
   .phone-three-image img {
     width: 80%;
