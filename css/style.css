@@ -933,7 +933,7 @@ ul li a {
   .phone-three-image img {
     width: 80%;
     position: relative;
-    left: 30px;
+    left: 0px;
   }
   .phone-three-text {
     flex: 1;
