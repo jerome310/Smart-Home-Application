@@ -1179,4 +1179,7 @@ ul li a {
     line-height: 2em;
     margin: 50px auto 0;
   }
+  .box-header {
+    padding: 0 25px;
+  }
 }
