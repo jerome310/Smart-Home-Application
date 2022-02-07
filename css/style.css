@@ -1608,4 +1608,10 @@ ul li a {
     line-height: 1.6em;
     padding-right: 0em;
   }
+  .footer-links h2 {
+  font-size: 20px;
+  }
+  .footer-links p {
+  font-size: 16px;
+  }
 }
