@@ -1585,7 +1585,7 @@ ul li a {
   }
   .subscribe-blue-box {
     background-color: #1e5afa;
-    padding: 70px 30px;
+    padding: 70px 20px;
     width: 70%;
     margin: 0px auto 0px;
     display: flex;
@@ -1593,7 +1593,7 @@ ul li a {
     justify-content: center;
     flex-wrap: wrap;
     border-radius: 10px;
-  }
+}
   .subscribe-text {
     color: #ffffff;
     flex: 1;
