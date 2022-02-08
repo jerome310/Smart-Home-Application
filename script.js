@@ -23,28 +23,28 @@ const people = [
     img: "/img/testimonial-one.svg",
     name: 'Cham Lucky',
     job: 'Product designer',
-    description: 'our company, we do ongoing research with our target audience. This includes 30-45 minute phone interviews. It was difficult to conduct the interview, really listen, and ask good follow up questions'
+    description: "smartHome is awesome! Wow what great service, I love it! Dude, your stuff is the bomb! Thanks guys, keep up the good work!"
   },
   {
     id: 2,
     img: "/img/testimonial-two.svg",
     name: 'Stephen Scopic',
     job: 'Custom IT Solutions Firm',
-    description: 'We meet new clients and more often than not establish long-term business relationships, all through Guru. The flexibility in how projects can be structured'
+    description: 'Best. Product. Ever! Great job, I will definitely be ordering again!'
   },
   {
     id: 3,
     img: "/img/testimonial-three.svg",
     name: 'Russell Lee',
     job: 'Writer',
-    description: 'It is easy to communicate with clients through their message system and their SafePay feature ensures that all funds are secured prior to any work being done.'
+    description: "Thanks smart home! We're loving it. I couldn't have asked for more than this. Great job, I will definitely be ordering again!"
   },
   {
     id: 4,
     img: "/img/testimonial-four.svg",
     name: 'Scott Solace',
     job: 'Engineering Firm',
-    description: 'At SOLACE Engineers, we provide engineering solutions and other services on various freelancing platforms. Among them all, Guru is the best and our first choice to invite clients.'
+    description: 'Your company is truly upstanding and is behind its product 100%. Thanks for the great service.'
   }
 ];
 

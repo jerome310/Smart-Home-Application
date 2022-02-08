@@ -1517,7 +1517,7 @@ ul li a {
   }
   .email-form-section {
     /* background-color: red; */
-    width: 80%;
+    width: 80% !important;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
